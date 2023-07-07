@@ -1,0 +1,31 @@
+@import "../../styles/config.scss";
+
+.switch {
+    height: calc(2 *#{$normal});
+    padding: 7px;
+    width: 200px;
+    background-color: var(--alter);
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+
+    .switch-button {
+        height: 100%;
+        width: 50%;
+        background-color: var(--primary);
+        border-radius: 10px;
+    }
+
+    .switch-text {
+        width: 50%;
+        text-align: center;
+        position: absolute;
+        color: var(--secondary);
+    }
+    .light-text {
+        left: 0;
+    }
+    .dark-text {
+        right: 0;
+    }
+}

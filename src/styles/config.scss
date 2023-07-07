@@ -1,0 +1,39 @@
+// font
+$font: "Inter", sans-serif;
+
+// color codings
+[data-bg="dark"] {
+    --primary: #FFF;
+    --secondary: #000;
+    --alter: #c9c9c9;
+}
+[data-bg="light"] {
+    --primary: #FFF;
+    --secondary: #000;
+    --alter: #c9c9c9;
+}
+
+//sizings
+$padding: 50px;
+$normal: 20px;
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+.App {
+    height: 100vh;
+    color: var(--primary);
+    background-color: var(--secondary);
+    font-family: $font;
+    overflow-y: hidden;
+    padding: $padding;
+    box-sizing: border-box;
+    font-size: $normal;
+}
+
+.centering-parent {
+    display: flex;
+    align-items: center;
+}
